@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "deepseek backend api",
+  "keywords": [
+    "deepseek",
+    "clone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "deepseek backend api"
+  },
+  "license": "ISC",
+  "author": "suraj",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.0",
+    "nodemon": "^3.1.14",
+    "openai": "^6.32.0"
+  }
+}
